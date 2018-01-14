@@ -1,4 +1,29 @@
 body{
-	background-color: black; 
+    background-image: url("https://rawgit.com/zeroerrortattoo/intro/master/1.jpg"); 
+    height: 100vh;
+    font-size: 16px;
+    font-family: "Gill Sans", sans-serif;
+   } 
+.btext{
+	color: #f9f3f4;
+	position: absolute;;
+	text-align: center;
+	top:40%;
+	width: 100%;
+	line-height: 0.4em;
 }
-
+h1{
+	font-size: 50px;
+}
+.btn{
+	color: #fff;
+	text-decoration: none;
+	border: #fff 1px solid;
+	padding: 5px 100px;
+	border-radius:8px;
+	line-height: 4em;
+}
+.btn:hover{
+	color:#ccc;
+	border: #ccc 1px solid;
+}
