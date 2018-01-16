@@ -40,24 +40,25 @@ h1{
 .modal-content{
 	height: 500px;
 }
-}
+
 .modal-backdrop{
 	position: static;
 }
-
-@media (max-width: 768px){
+}
+@media (max-width: 480px){
 
 .modal-dialog {
     width: 100%;
     margin-top: 600px !important;
-
+    padding-right: 0px;
     
 }
 
 .modal-content{
 	height: 500px;
 }
-}
+
 .modal-backdrop{
 	position: static;
+}
 }
